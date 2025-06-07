@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Jose Jorge Muñoz Mercado - Analista de Datos</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            display: flex;
+        }
+        .sidebar {
+            width: 35%;
+            background-color: #2c3e50; /* Un azul oscuro profesional */
+            color: #ecf0f1;
+            padding: 30px 25px;
+            box-sizing: border-box;
+        }
+        .main-content {
+            width: 65%;
+            padding: 30px 40px;
+            box-sizing: border-box;
+        }
+        .profile-pic-container {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px auto;
+            border: 5px solid #3498db; /* Un azul más claro para el borde */
+        }
+        .profile-pic {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h1, h2, h3 {
+            color: #3498db; /* Azul para los títulos principales */
+        }
+        .sidebar h2, .sidebar h3 {
+            color: #ecf0f1; /* Blanco/gris claro para títulos en sidebar */
+            border-bottom: 1px solid #3498db;
+            padding-bottom: 5px;
+        }
+        .main-content h1 {
+            text-align: center;
+            margin-top: 0;
+            font-size: 2.2em;
+            color: #2c3e50;
+        }
+        .main-content .subtitle {
+            text-align: center;
+            font-size: 1.2em;
+            color: #555;
+            margin-top: -15px;
+            margin-bottom: 30px;
+        }
+        .section-title {
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            color: #2c3e50;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .sidebar ul li {
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+        .sidebar ul li::before {
+            content: "➢";
+            color: #3498db;
+            margin-right: 8px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+        }
+        .contact-info svg {
+            width: 16px;
+            height: 16px;
+            margin-right: 10px;
+            fill: #ecf0f1;
+        }
+        .experience-item, .education-item, .publication-item {
+            margin-bottom: 20px;
+        }
+        .experience-item h3 { /* Estilo general para h3 en experience-item */
+             margin-bottom: 3px;
+             font-size: 1.1em;
+             color: #2c3e50;
+        }
+        .experience-item .company-role { /* Usado para el título del bloque de experiencia */
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 1.1em;
+            margin-bottom: 3px;
+        }
+        .experience-item .company, .education-item .institution { /* Estilo para compañía o institución si se usa explícitamente */
+            font-style: italic;
+            color: #555;
+            font-size: 0.95em;
+        }
+        .experience-item .date {
+            font-size: 0.9em;
+            color: #777;
+            margin-bottom: 5px;
+        }
+        .experience-item p.description { /* Para las descripciones concisas */
+            font-size: 0.95em;
+            margin-top: 2px;
+            margin-bottom: 10px;
+        }
+        .experience-item p.description strong { /* Para resaltar partes dentro de la descripción */
+            color: #333; /* Un color ligeramente más oscuro para el énfasis */
+        }
+        .education-item h3, .publication-item h3 {
+            margin-bottom: 3px;
+            font-size: 1.1em;
+            color: #2c3e50;
+        }
+        .education-item .date {
+            font-size: 0.9em;
+            color: #777;
+            margin-bottom: 5px;
+        }
+        .publication-item .journal {
+            font-style: italic;
+            color: #555;
+            font-size: 0.9em;
+        }
+        .publication-item .date {
+             font-size: 0.85em;
+             color: #777;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                width: 100%;
+                margin: 0;
+            }
+            .sidebar, .main-content {
+                width: 100%;
+                padding: 20px;
+            }
+            .main-content h1 {
+                font-size: 1.8em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile-pic-container">
+                <!-- Asegúrate de que la imagen 'me3.png' esté en la misma carpeta o proporciona la ruta correcta -->
+                <img src="me3.png" alt="Foto de Jose Jorge Muñoz Mercado" class="profile-pic">
+            </div>
+
+            <h2>PERFIL</h2>
+            <p>Ingeniero Industrial y Magíster en Ciencia de Datos con +1 año de experiencia directa en análisis estadístico y proyectos de Machine Learning. Apasionado por transformar datos en insights accionables, con habilidades en SQL, Python, R y herramientas BI. Mi trayectoria incluye el desarrollo de modelos predictivos y análisis para productos digitales, así como una fuerte vocación por el sector educativo, donde he aplicado la IA y enseñado fundamentos de desarrollo. Busco contribuir en áreas de Analítica de Datos, Machine Learning e integración de modelos de I.A.</p>
+
+            <div class="contact-info">
+                <h3>CONTACTO</h3>
+                <p>
+                    <svg viewBox="0 0 24 24"><path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z"/></svg>
+                    3126654386
+                </p>
+                <p>
+                    <svg viewBox="0 0 24 24"><path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z"/></svg>
+                    josejorgemm10@gmail.com
+                </p>
+            </div>
+
+            <h3>SOFTWARES</h3>
+            <ul>
+                <li>SQL</li>
+                <li>Python (PySpark, Pandas)</li>
+                <li>R</li>
+                <li>AWS, Azure</li>
+                <li>Power BI</li>
+                <li>Excel / Google Sheets</li>
+                <li>MATLAB</li>
+            </ul>
+
+            <h3>IDIOMAS</h3>
+            <p><strong>Inglés:</strong> Nivel intermedio</p>
+        </aside>
+
+        <main class="main-content">
+            <h1>JOSE JORGE MUÑOZ MERCADO</h1>
+            <p class="subtitle">ANALISTA DE DATOS</p>
+
+            <h2 class="section-title">EXPERIENCIA</h2>
+            <div class="experience-item">
+                <h3 class="company-role">Facilitador y Mentor en Tecnología Educativa e IA</h3>
+                <p class="date">Agosto 2023 - Actual</p>
+                <p class="description">
+                    <strong>Docente de Desarrollo de Software (Media Técnica) | I.E Jesus Rey</strong> (Feb 2025 - Actual): Impartición de currículo técnico en desarrollo de software y fomento de habilidades tecnológicas. <br>
+                    <strong>Mentor de IA Generativa | NODO - EAFIT</strong> (Nov 2024 - Dic 2024): Guía y asesoramiento en proyectos de Inteligencia Artificial Generativa. <br>
+                    <strong>Formador en IA Generativa (Aplicaciones Educativas) | Freelancer</strong> (Feb 2024 - Actual): Diseño y facilitación de talleres y material sobre la aplicación de IA en contextos educativos. <br>
+                    <strong>Docente de Matemáticas | I.E Ciudadela Nuevo Occidente</strong> (Ago 2023 - Ene 2024): Enseñanza de matemáticas y estadística, desarrollando el pensamiento lógico y analítico en estudiantes de educación media.
+                </p>
+            </div>
+
+            <div class="experience-item">
+                <h3 class="company-role">Analista de Datos y Científico de Datos (Proyectos Sectoriales)</h3>
+                <p class="date">Marzo 2022 - Agosto 2023</p>
+                <p class="description">
+                    <strong>FinTech (Mayo - Ago 2023):</strong> Liderazgo en análisis NLP para detección de tópicos y clasificación automática de emails, optimizando la gestión de comunicaciones y productos digitales. <br>
+                    <strong>Institución Educativa Privada (Ene - Jun 2023):</strong> Desarrollo e implementación de modelos predictivos de Machine Learning para la deserción estudiantil, identificando factores de riesgo y apoyando estrategias de retención. <br>
+                    <strong>Empresa Retail (Oct - Dic 2022):</strong> Aplicación de modelado estadístico y Machine Learning para la predicción de ventas, contribuyendo a la optimización de inventario y estrategias comerciales. <br>
+                    <strong>Empresa Minera (Mar - Jun 2022):</strong> Ejecución de análisis de datos para la clasificación de recursos minerales, proveyendo insights clave para la toma de decisiones en exploración.
+                </p>
+            </div>
+            
+            <div class="experience-item">
+                <h3 class="company-role">Experiencia Fundacional en Estadística Aplicada</h3>
+                <p class="company">Universidad del Magdalena</p>
+                <p class="date">Marzo 2020 - Noviembre 2021</p>
+                <p class="description">
+                    <strong>Pasantía de Investigación (Control Estadístico de Procesos)</strong> (Ago - Nov 2021): Colaboración activa en proyectos de investigación, aplicando metodologías de análisis de datos para la mejora de la calidad en procesos. <br>
+                    <strong>Monitor Académico (Control Estadístico de Procesos)</strong> (Mar 2020 – Jun 2021): Soporte académico a estudiantes, reforzando conceptos teóricos y prácticos mediante tutorías, talleres y desarrollo de material didáctico.
+                </p>
+            </div>
+
+            <h2 class="section-title">FORMACIÓN ACADÉMICA</h2>
+            <div class="education-item">
+                <h3>Maestría en Ciencias de los Datos</h3>
+                <p class="institution">Universidad EAFIT, Medellín</p>
+                <p class="date">2022 - 2023</p>
+            </div>
+            <div class="education-item">
+                <h3>Ingeniería Industrial</h3>
+                <p class="institution">Universidad del Magdalena, Santa Marta</p>
+                <p class="date">2016 - 2021</p>
+            </div>
+
+            <h2 class="section-title">PUBLICACIONES CIENTÍFICAS</h2>
+            <p style="font-size:0.9em; color:#555;"><i>Más de 5 publicaciones internacionales, enfocadas en control estadístico y modelado.</i></p>
+            <div class="publication-item">
+                <h3>Investigación en Control Estadístico y Modelado (Selección)</h3>
+                <p class="journal">Publicaciones en revistas como Mathematics, Stochastics and Quality Control, Frontiers in Applied Mathematics and Statistics, Advances and Applications in Statistics, Scientific Reports.</p>
+                <p class="date">2020 - 2024</p>
+                <p class="description" style="font-size:0.9em;">Contribuciones significativas en la optimización de gráficos de control estadístico (np, c, X-bar), desarrollo de esquemas de muestreo múltiple y modelado de datos para distribuciones específicas como Weibull.</p>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>
